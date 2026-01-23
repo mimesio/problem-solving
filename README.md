@@ -1,6 +1,6 @@
 # problem-solving
 ## solve
-> [!NOTE]
+> [!TIP]
 > 다른 사람들이 보기쉽도록 분리하여 구현합니다
 
 - 기능을 메서드로 분리하여 작성하고 각 메서드명을 고민해 작성합니다
@@ -10,17 +10,18 @@
 <br/>
 
 ## git
-> [!NOTE]
+> [!TIP]
 > 다른 사람들이 보기쉽도록 git을 사용합니다
 
 - 자신의 이름을 영어로 작성하여 브랜치를 사용합니다 (ex. `minseok`)
-- commit 메세지는 `feat`, `fix`, `chore` 등으로 시작합니다 (ex. feat: 결과 출력 메서드 구현)
+- commit 메세지는 `solve: {site} {problem_id}`로 통일합니다 (ex. `solve: boj 1000`)
+  - 한꺼번에 올릴 경우 `solve: {date}` 형식으로 통일합니다 (ex. `solve: 2026-01-23`)
 - 기능별로 메서드를 분리하여 따로 작성합니다
 
 <br/>
 
 ## submit
-> [!NOTE]
+> [!TIP]
 > 다른 사람들이 보기쉽도록 구조화합니다
 
 - 폴더는 `{site}/{problem_id}`를 사용하여 구조화합니다 (ex. `boj/1000`)
